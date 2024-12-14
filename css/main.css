@@ -11,26 +11,103 @@
     /*  Android, iOS */
   }
 
-*
-{
-    padding: 0;
+*{
+    direction: rtl;
+    font-family: "Vazir";
+    box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
 }
   
-  body {
-    font-family: "Vazir" !important;    
+@media screen and (min-with:200px) {
+  .carousel-inner{
+    display: flex;
+  }
+  .task-carousel-controler{
+    display: flex;
+  }
+  .items{
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100%/3)
   }
 
-  .custom-btn {
-    background-color: #ff5733; 
-    color: white; 
-  }
+  .img-wrapper{
+    height: 65vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 
-  .text-primary{
-    color: #054DA1;
   }
-  .text-secondery{
-    color: #282828;
-  }
-  .back-ground-primary{
-    background-color: #282828;
-  }
+    
+}
+
+.carousel-item{
+
+}
+
+.carousel-inner{
+  
+}
+
+
+body {
+  font-family: "Vazir" !important;
+  font-size: 16px;
+  margin: 0%;
+  background-color: #ececec;    
+}
+
+.custom-btn {
+  background-color: #ff5733; 
+  color: white; 
+}
+
+.text-primary-taha{
+  color: #353535;
+  align-items: center;
+}
+.text-secondery{
+  color: #282828;
+  margin: 0;
+}
+.buttons-secondery-taha{
+  background-color: #edecec;
+}
+.buttons-primary-taha
+{
+  background: rgb(95, 163, 231);
+  background: linear-gradient(180deg, rgb(95, 163, 231) 0%, rgba(10, 94, 190, 0.942) 100%);
+}
+.back-ground-primary{
+  background-color: #282828;
+}
+.small-text-taha
+{
+  font-size: 12px;
+  margin: 0;
+}
+.footer { 
+  bottom: 0; 
+  left: 0; 
+  z-index: 10;
+}
+
+
+
+.info-carousel-controler{
+
+}
+
+.footer-backGround{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 40%);
+}
+
+.footer-icon-taha{
+  margin-bottom:15%;
+}
