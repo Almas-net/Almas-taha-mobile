@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "Vazir";
-    src: url("../fonts/Vazir.eot");
+    src: url("../main_fonts/vazir_fonts/Vazir.eot");
     /* IE9 Compat Modes */
-    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
-      url("../fonts/Vazir.woff2") format("woff2"),
-      url("../fonts/Vazir.woff") format("woff"),
-      url("../fonts/Vazir.ttf") format("truetype");
+    src: url("../main_fonts/vazir_fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../main_fonts/vazir_fonts/Vazir.woff2") format("woff2"),
+      url("../main_fonts/vazir_fonts/Vazir.woff") format("woff"),
+      url("../main_fonts/vazir_fonts/Vazir.ttf") format("truetype");
     /*  Android, iOS */
   }
 
@@ -22,29 +22,7 @@ img{
   max-height: 100%;
 }
   
-@media screen and (min-with:200px) {
-  .carousel-inner{
-    display: flex;
-  }
-  .task-carousel-controler{
-    display: flex;
-  }
-  .items{
-    display: block;
-    margin-right: 0;
-    flex: 0 0 calc(100%/3)
-  }
 
-  .img-wrapper{
-    height: 65vw;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-
-  }
-    
-}
 
 .carousel-item{
 
@@ -111,3 +89,5 @@ body {
 .footer-icon-taha{
   margin-bottom:15%;
 }
+
+

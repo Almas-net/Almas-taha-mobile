@@ -24,8 +24,12 @@
     crossorigin="anonymous"
     >
     </script>
+    <!-- script links -->
+    <script src="./app/assets/map_js/map.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>    
     <!-- Main css/js file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./app/assets/main_css/main.css">
     
     <!-- app name -->
     <title>test taha</title>
@@ -150,7 +154,7 @@
         <!-- map -->
         <div class="text-center"  style="padding: 0;">
             <img  
-            src="./images/mid-header-icons/Screenshot 2024-12-04 164453.png"
+            src="./app/assets/main_images/mid-header-icons/Screenshot 2024-12-04 164453.png"
             class="img-fluid z-0" 
             alt=""
             >
@@ -198,57 +202,64 @@
                   <circle cx="18" cy="22" r="2" fill="#edecec"/>
                   </svg>
                 </div>             
+                <p>انجام وظایف</p>
               </div>
               <div class="col-3">
-                <div class="buttons-primary-taha d-inline-flex focus-ring py-2 px-2 text-decoration-none border rounded-3">
+                <div class="buttons-primary-taha d-inline-flex focus-ring py-2 px-2 text-decoration-none border rounded-3" >
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 27 38" fill="none">
-                  <!-- Clipboard Base -->
-                  <rect x="1" y="1" width="25" height="36" rx="4" stroke="#edecec" stroke-width="2" fill="none"/>
-                  <!-- Checklist Item 1 -->
-                  <line x1="5" y1="8" x2="15" y2="8" stroke="#FFFFFF" stroke-width="2"/>
-                  <circle cx="18" cy="8" r="2" fill="#FFFFFF"/>
-                  <!-- Checklist Item 2 -->
-                  <line x1="5" y1="15" x2="15" y2="15" stroke="#FFFFFF" stroke-width="2"/>
-                  <circle cx="18" cy="15" r="2" fill="#FFFFFF"/>
-                  <!-- Checklist Item 3 -->
-                  <line x1="5" y1="22" x2="15" y2="22" stroke="#FFFFFF" stroke-width="2"/>
-                  <circle cx="18" cy="22" r="2" fill="#edecec"/>
+                    <!-- Outer Circle -->
+                    <circle cx="13.5" cy="13.5" r="12" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+                    <!-- Progress Arc -->
+                    <path d="M13.5 1.5 A12 12 0 0 1 25.5 13.5" stroke="#054DA1" stroke-width="2" fill="none"/>
+                    <!-- Inner Circle -->
+                    <circle cx="13.5" cy="13.5" r="4" fill="#FFFFFF"/>
+                    <!-- Text -->
                   </svg>
                 </div>             
+                <p>درحال انجام</p>
               </div>
               <div class="col-3">
                 <div class="buttons-primary-taha d-inline-flex focus-ring py-2 px-2 text-decoration-none border rounded-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 27 38" fill="none">
-                  <!-- Clipboard Base -->
-                  <rect x="1" y="1" width="25" height="36" rx="4" stroke="#edecec" stroke-width="2" fill="none"/>
-                  <!-- Checklist Item 1 -->
-                  <line x1="5" y1="8" x2="15" y2="8" stroke="#FFFFFF" stroke-width="2"/>
-                  <circle cx="18" cy="8" r="2" fill="#FFFFFF"/>
-                  <!-- Checklist Item 2 -->
-                  <line x1="5" y1="15" x2="15" y2="15" stroke="#FFFFFF" stroke-width="2"/>
-                  <circle cx="18" cy="15" r="2" fill="#FFFFFF"/>
-                  <!-- Checklist Item 3 -->
-                  <line x1="5" y1="22" x2="15" y2="22" stroke="#FFFFFF" stroke-width="2"/>
-                  <circle cx="18" cy="22" r="2" fill="#edecec"/>
-                  </svg>
+                    <!-- Ticket Base -->
+                    <path d="M5 8 h17 a2 2 0 0 1 2 2 v4 a4 4 0 0 0 0 8 v4 a2 2 0 0 1 -2 2 h-17 a2 2 0 0 1 -2 -2 v-4 a4 4 0 0 0 0 -8 v-4 a2 2 0 0 1 2 -2 z" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+                    <!-- Top Perforations -->
+                    <circle cx="7" cy="12" r="1" fill="#FFFFFF"/>
+                    <circle cx="11" cy="12" r="1" fill="#FFFFFF"/>
+                    <circle cx="15" cy="12" r="1" fill="#FFFFFF"/>
+                    <circle cx="19" cy="12" r="1" fill="#FFFFFF"/>
+                    <!-- Bottom Perforations -->
+                    <circle cx="7" cy="26" r="1" fill="#FFFFFF"/>
+                    <circle cx="11" cy="26" r="1" fill="#FFFFFF"/>
+                    <circle cx="15" cy="26" r="1" fill="#FFFFFF"/>
+                    <circle cx="19" cy="26" r="1" fill="#FFFFFF"/>
+                    <!-- Text -->
+                  </svg>                  
                 </div>
+                <p>تیکت ها</p>
               </div>
               <div class="col-3">
                 <div class="buttons-primary-taha d-inline-flex focus-ring py-2 px-2 text-decoration-none border rounded-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 27 38" fill="none">
-                  <!-- Clipboard Base -->
-                  <rect x="1" y="1" width="25" height="36" rx="4" stroke="#edecec" stroke-width="2" fill="none"/>
-                  <!-- Checklist Item 1 -->
-                  <line x1="5" y1="8" x2="15" y2="8" stroke="#FFFFFF" stroke-width="2"/>
-                  <circle cx="18" cy="8" r="2" fill="#FFFFFF"/>
-                  <!-- Checklist Item 2 -->
-                  <line x1="5" y1="15" x2="15" y2="15" stroke="#FFFFFF" stroke-width="2"/>
-                  <circle cx="18" cy="15" r="2" fill="#FFFFFF"/>
-                  <!-- Checklist Item 3 -->
-                  <line x1="5" y1="22" x2="15" y2="22" stroke="#FFFFFF" stroke-width="2"/>
-                  <circle cx="18" cy="22" r="2" fill="#edecec"/>
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 28 39" fill="none">
+                    <!-- Expanded Border with 1px Larger Size -->
+                    <rect x="1" y="1" width="26" height="37" rx="4" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+                  
+                    <!-- Dollar Symbol (Moved Lower) -->
+                    <text x="14" y="14" fill="#FFFFFF" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle">$</text>
+                  
+                    <!-- List Lines (Higher Position) -->
+                    <line x1="9" y1="18" x2="22" y2="18" stroke="#FFFFFF" stroke-width="1.5"/>
+                    <line x1="9" y1="22" x2="22" y2="22" stroke="#FFFFFF" stroke-width="1.5"/>
+                    <line x1="9" y1="26" x2="22" y2="26" stroke="#FFFFFF" stroke-width="1.5"/>
+                  
+                    <!-- List Bullet Points -->
+                    <circle cx="7.5" cy="18" r="1.5" fill="#FFFFFF"/>
+                    <circle cx="7.5" cy="22" r="1.5" fill="#FFFFFF"/>
+                    <circle cx="7.5" cy="26" r="1.5" fill="#FFFFFF"/>
+                  
+                  </svg>                  
                 </div>
+                <p>فاکتور های فروش</p>
               </div>
             </div>
           </div>
@@ -276,14 +287,14 @@
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn  btn-danger" data-bs-dismiss="modal">بستن </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdropTasks1" >بستن </button>
                 <button type="button" class="btn btn-success">تایید وظیفه</button>
               </div>
             </div>
           </div>
         </div> 
-        <!-- yes or no TaskModals -->
-        <div class="modal fade d-none" id="staticBackdropTasksTandF" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <!-- not accept TaskModals -->
+        <div class="modal fade " id="staticBackdropTasks1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -323,7 +334,7 @@
               <div class="shadow">
                 <div class="carousel-item active" data-bs-interval="">
                   <div class="align-items-center shadow">
-                    <img class="img-fluid object-fit-cover border rounded rounded-3 d-block w-100 h-100 c-img" src="./images/main-page/slider-1-notife.png" alt="">
+                    <img class="img-fluid object-fit-cover border rounded rounded-3 d-block w-100 h-100 c-img" src="./app/assets/main_images/main-page/slider-1-notife.png" alt="">
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="">
@@ -335,7 +346,7 @@
                 </div>
                 <div class="carousel-item">
                   <section class="align-items-center shadow">
-                    <img class="img-fluid object-fit-cover border rounded rounded-3 d-block w-100 h-100 c-img" src="./images/main-page/slider-3-network.jpg" alt="">
+                    <img class="img-fluid object-fit-cover border rounded rounded-3 d-block w-100 h-100 c-img" src="./app/assets/main_images/main-page/slider-3-network.jpg" alt="">
                   </section>
                 </div>
               </div>
@@ -414,16 +425,8 @@
         <h6 class="text-primary-taha d-flex justify-content-center p-1 ">Lorem ipsum dolor sit amet consectetur </h6>
       </div>
       <div class="d-flex justify-content-center footer-icon-taha "> 
-        <img src="./images/main-page/🦆 illustration _Report analysis_.png" class="" alt="">
+        <img src="./app/assets/main_images/main-page/🦆 illustration _Report analysis_.png" class="" alt="">
       </div>
     </section>
-    
-
-    <!-- script links -->
-    <script src="./js/app.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>    
   </body>
 </html>
